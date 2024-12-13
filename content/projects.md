@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: Projects that I have worked on over the years, including both group projects from uni and personal projects. More items to be added. 
       filters:
         folders:
           - project
