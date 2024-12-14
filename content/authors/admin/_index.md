@@ -175,7 +175,7 @@ languages:
   - name: Chinese
     percent: 100
   - name: English
-    percent: 85
+    percent: 95
 
 
 # Awards.
