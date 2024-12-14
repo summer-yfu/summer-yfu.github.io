@@ -37,7 +37,7 @@ sections:
       text: |-
         I'm a research student in Mphil program under the supervision of Professor Maurice Pagnucco and Professor Yang Song.
 
-        Currently I apply a range of qualitative and quantitative methods in deep learning to investigate problems in Boolean Satisfiability and Planning. 
+        Currently I apply a range of methods in deep learning (specific focus on graph neural network) to investigate problems in Boolean Satisfiability and Planning. 
 
         I'm also interested in research topics in computer graphics & VR/AR.
         
