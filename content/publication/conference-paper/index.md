@@ -6,7 +6,7 @@ title: 'Structure Based Dataset on SAT Solving with Graph Neural Networks'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Anthonyn Tompkins
+  - Anthony Tompkins
   - Yang Song
   - Maurice Pagnucco
 
