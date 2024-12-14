@@ -56,16 +56,16 @@ sections:
     design:
       view: citation
 
-  # - block: collection
-  #   content:
-  #     title: Projects
-  #     filters:
-  #       folders:
-  #         - project
-  #       featured_only: true
-  #   design:
-  #     #view: article-grid
-  #     columns: 3
+  - block: collection
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+        featured_only: false
+    design:
+      #view: article-grid
+      columns: 3
 
   # - block: collection
   #   id: talks
