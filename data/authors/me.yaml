@@ -1,0 +1,119 @@
+schema: "hugoblox/author/v1"
+slug: "me"
+is_owner: true
+name:
+  display: "Yi Fu"
+  given: "Yi"
+  family: "Fu"
+  alternate: "Summer :> "
+  pronunciation: ""
+  pronouns: "she/her"
+
+status:
+  icon: "☕️"
+role: "Mphil Graduate & Software Engineer"
+bio: "I am a recent Mphil graduate from UNSW. Currently working as a Software Engineer intern in AI agent system at ConnectOnion, and currently being a casual academic tutor at UNSW. I love exploring different areas and build on interesting projects that can make life easier.\n"
+affiliations:
+  - name: "UNSW"
+    url: "https://www.unsw.edu.au/"
+
+interests:
+  - "Constraint Satisfaction and Optimization"
+  - "Reinforcement Learning"
+  - "Computer Graphics"
+  - "XR/VR/AR"
+  - "Robotics"
+  - "Large Language Models"
+  - "AI Agent"
+education:
+  - degree: "Master of Philosophy in Computer Science"
+    institution: "University of New South Wales"
+    start: "2025-10-11"
+    end: "2023-03-12"
+    summary: "Thesis on Boolean Satisfiability Solving and Graph Neural Networks. Published 1 paper in AISTATS and 2 papers in workshops.\n"
+    # button:
+    #   text: "Download dissertation"
+    #   url: "/resume.pdf"
+    #   icon: "hero/arrow-down-tray"
+  - degree: "Bachelor of Science in Computer Science"
+    institution: "University of New South Wales"
+    summary: "UNSW Global Academic Award\n"
+    start: "2023-02-12"
+    end: "2020-09-12"
+experience:
+  - role: "Software Engineer Intern - AI system"
+    org: "OpenOnion"
+    start: "2026-04"
+    summary: "Current AI agent intern at OpenOnion. Working on building web automation tools for AI agent. \n"
+    # button:
+    #   text: "View portfolio"
+    #   url: "/"
+    #   icon: "hero/arrow-down-tray"
+  - role: "AI Research Intern"
+    org: "UNSW"
+    start: "2025-11"
+    summary: "Current Research Intern at UNSW. Working on designing and implementing LLM evaluation systems for structured reasoning and planning tasks with different LLM models\n"
+
+  - role: "Postdoctoral Writing Fellow"
+    org: "UNSW"
+    start: "2025-04"
+    end: "2025-07"
+    summary: "Worked on Data Augmentation Methods for Graph Neural Networks and Boolean Satisfiability Solving. First-author paper at MathAI@ICML\n"
+
+skills:
+  - name: "Programming"
+    items:
+      - label: "PYTHON, JAVA, C/C++, JAVASCRIPT, SQL"
+        level: 5
+
+  - name: "Software Engineering"
+    items:
+      - label: "BACKEND, APIs, FULL-STACK"
+        level: 4
+      - label: "AUTOMATION, PIPELINES, SYSTEM DESIGN"
+        level: 4
+
+  - name: "AI & LLM Systems"
+    items:
+      - label: "ML, DL, PYTORCH"
+        level: 5
+      - label: "TRANSFORMERS, SCIKIT-LEARN"
+        level: 5
+      - label: "LLMs, RAG, OPENAI API"
+        level: 5
+      - label: "AGENTS, MODEL EVAL"
+        level: 3
+
+  - name: "Cloud & Tools"
+    items:
+      - label: "AWS, DOCKER, CI/CD"
+        level: 4
+      - label: "LINUX, GIT"
+        level: 4
+
+  - name: "Teaching & Communication"
+    items:
+      - label: "TEACHING, WRITING, PRESENTATION"
+        level: 3
+
+  - name: "Game Development"
+    items: 
+      - label: "UNITY, UNREAL, GODOT"
+        level: 4
+
+languages:
+  - name: "English"
+    level: 5
+    label: "Proficient"
+  - name: "Chinese (Mandarin)"
+    level: 5
+    label: "Native"
+  - name: "Japanese"
+    level: 2
+    label: "Everyday Communication"
+# awards:
+#   - title: "Best Paper Award"
+#     awarder: "NeurIPS"
+#     date: "2022-12-01"
+#     summary: "Awarded for groundbreaking work on efficient training of large models."
+#     icon: "hero/trophy"
