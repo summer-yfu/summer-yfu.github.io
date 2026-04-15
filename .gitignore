@@ -8,6 +8,7 @@
 
 # Generated site output
 public/
+go.sum
 
 # Hugo resources (processed assets)
 resources/
@@ -67,3 +68,4 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
