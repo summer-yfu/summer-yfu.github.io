@@ -20,7 +20,7 @@ affiliations:
 interests:
   - "Constraint Satisfaction and Optimization"
   - "Reinforcement Learning"
-  - "Computer Graphics"
+  - "Machine Learning"
   - "XR/VR/AR"
   - "Robotics"
   - "Large Language Models"
@@ -59,6 +59,12 @@ experience:
     start: "2025-04"
     end: "2025-07"
     summary: "Worked on Data Augmentation Methods for Graph Neural Networks and Boolean Satisfiability Solving. First-author paper at MathAI@ICML\n"
+  
+  - role: "Undergraduate Research Assistant"
+    org: "UNSW"
+    start: "2022-02"
+    end: "2023-02"
+    summary: "Implemented a USAR Turtlebot3 in ROS2, Python and Yolov5, improving accuracy in navigation and detections.\n"
 
 skills:
   - name: "Programming"
