@@ -67,46 +67,54 @@ experience:
     summary: "Implemented a USAR Turtlebot3 in ROS2, Python and Yolov5, improving accuracy in navigation and detections.\n"
 
 skills:
-  - name: "Programming"
-    items:
-      - label: "PYTHON, JAVA, C/C++, JAVASCRIPT, SQL"
-        level: 5
+- name: "Full-Stack Development"
+  items:
+    - label: "Python, C/C++, C#, TypeScript, JavaScript"
+      level: 5
+    - label: "REST APIs, React, Next.js, Node.js"
+      level: 5
 
-  - name: "Software Engineering"
-    items:
-      - label: "BACKEND, APIs, FULL-STACK"
-        level: 4
-      - label: "AUTOMATION, PIPELINES, SYSTEM DESIGN"
-        level: 4
+- name: "AI Systems & Agent Frameworks"
+  items:
+    - label: "Large Language Models(LLMs), RAG, Prompt Engineering"
+      level: 5
+    - label: "LangChain, LangGraph, Multi-Agent Systems"
+      level: 4.9
 
-  - name: "AI & LLM Systems"
-    items:
-      - label: "ML, DL, PYTORCH"
-        level: 5
-      - label: "TRANSFORMERS, SCIKIT-LEARN"
-        level: 5
-      - label: "LLMs, RAG, OPENAI API"
-        level: 5
-      - label: "AGENTS, MODEL EVAL"
-        level: 3
 
-  - name: "Cloud & Tools"
-    items:
-      - label: "AWS, DOCKER, CI/CD"
-        level: 4
-      - label: "LINUX, GIT"
-        level: 4
 
-  - name: "Teaching & Communication"
-    items:
-      - label: "TEACHING, WRITING, PRESENTATION"
-        level: 3
+- name: "Machine Learning"
+  items:
+    - label: "PyTorch, TensorFlow"
+      level: 5
+    - label: "NumPy, Pandas, Scikit-learn"
+      level: 5
+    - label: " Neural Networks, Transformers, Deep Learning"
+      level: 5
 
-  - name: "Game Development"
-    items: 
-      - label: "UNITY, UNREAL, GODOT"
-        level: 4
+- name: "Databases"
+  items:
+    - label: "PostgreSQL, MySQL, MongoDB"
+      level: 4.5
 
+- name: "Infrastructure & DevOps"
+  items:
+    - label: "Docker, AWS, Git"
+      level: 5
+    - label: "CI/CD, Linux"
+      level: 4.5
+
+# - name: "Tools & Automation"
+#   items:
+#     - label: "Jupyter Notebook, Zapier, n8n, Power Automate"
+#       level: 4
+
+- name: "Game Development"
+  items:
+    - label: "Unity, Unreal Engine, Godot, Blender"
+      level: 5
+
+ 
 languages:
   - name: "English"
     level: 5
