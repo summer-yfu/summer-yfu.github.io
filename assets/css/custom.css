@@ -1,0 +1,31 @@
+
+.cv-under-unsw {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cv-button-small {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.45rem 0.9rem !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+  border-radius: 0.5rem !important;
+
+  box-shadow: none !important;
+}
+
+.cv-button-small svg {
+  width: 0.95rem !important;
+  height: 0.95rem !important;
+  margin-right: 0.3rem !important;
+}
+
+
+.resume-biography {
+  padding-top: 48px !important;
+}

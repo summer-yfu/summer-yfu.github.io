@@ -51,6 +51,7 @@ sections:
         I'm also interested in research topics in computer graphics & VR/AR.
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
@@ -72,6 +73,18 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
+  - block: collection
+    id: projects
+    content:
+      title: Selected Projects
+      filters:
+        folders:
+          - projects
+        featured_only: false
+    design:
+      view: article-grid
+      columns: 3
 
   # - block: collection
   #   id: news

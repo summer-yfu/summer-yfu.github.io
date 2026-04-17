@@ -1,0 +1,36 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const cvButton = Array.from(document.querySelectorAll('a')).find(
+    a => a.textContent.trim().includes('Download CV')
+  );
+
+  const unswEl = Array.from(document.querySelectorAll('body *')).find(
+    el => el.children.length === 0 && el.textContent.trim() === 'UNSW'
+  );
+
+  if (!cvButton || !unswEl) return;
+
+  if (cvButton.dataset.moved === 'true') return;
+  cvButton.dataset.moved = 'true';
+
+  cvButton.classList.remove(
+    'px-8',
+    'py-4',
+    'text-lg',
+    'rounded-xl',
+    'shadow-lg',
+    'hover:shadow-xl',
+    'hover:scale-105'
+  );
+
+  cvButton.classList.add('cv-button-small');
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'cv-under-unsw';
+
+  unswEl.insertAdjacentElement('afterend', wrapper);
+  wrapper.appendChild(cvButton);
+});
+
+
+</script>
