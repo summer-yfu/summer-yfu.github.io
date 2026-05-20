@@ -1,5 +1,5 @@
 ---
-title: Agent Argument Siim
+title: Agent Argument Sim
 date: 2026-03-12
 links:
   - type: site

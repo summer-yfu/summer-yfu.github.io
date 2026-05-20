@@ -13,7 +13,9 @@ publication_types:
   - paper-workshop
 publication: 2nd AI for Math Workshop@ ICML 2025
 publication_short: MathAI ICML
-abstract: ""
+abstract: Boolean Satisfiability (SAT) is a well-known NP-complete problem that lies at the core of many applications in formal verification, planning, and artificial intelligence. While classical SAT solvers have achieved impressive results on both synthetic and industrial benchmarks, they solve each instance independently without leveraging prior experience. Graph Neural Network (GNN)-based SAT solvers offer a learning-driven approach with the potential to transfer knowledge across problem instances and achieve better generalization performance. However, most existing work in this area focuses heavily on model architecture designs, with limited attention paid to data augmentation techniques that could improve out-of-domain generalization. In this work, we explore two simple data augmentation strategies applied during training and analyze their impact on both in-domain accuracy and out-of-domain generalization. Our findings suggest new directions for enhancing the performance and generalization ability of GNN-based SAT solvers.
+
+
 summary: ""
 tags: [Graph Neural Networks, Boolean Satisfiability Problems, Data Augmentation]
 featured: true
@@ -28,16 +30,7 @@ links:
 #   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
 #   focal_point: ""
 #   preview_only: false
-projects:
-  - ""
-slides: ""
+
 
 ---
 
-> [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
