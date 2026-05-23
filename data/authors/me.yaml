@@ -28,8 +28,8 @@ interests:
 education:
   - degree: "Master of Philosophy in Computer Science"
     institution: "University of New South Wales"
-    start: "2025-10-11"
-    end: "2023-03-12"
+    start: "2023-03-12"
+    end: "2025-10-11"
     summary: "Thesis on Boolean Satisfiability Solving and Graph Neural Networks. Published 1 paper in AISTATS and 2 papers in workshops.\n"
     # button:
     #   text: "Download dissertation"
@@ -38,8 +38,8 @@ education:
   - degree: "Bachelor of Science in Computer Science"
     institution: "University of New South Wales"
     summary: "UNSW Global Academic Award\n"
-    start: "2023-02-12"
-    end: "2020-09-12"
+    start: "2020-09-12"
+    end: "2023-02-12"
 experience:
   - role: "Software Engineer Intern - AI system"
     org: "OpenOnion"
