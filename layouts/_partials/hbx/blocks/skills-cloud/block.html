@@ -1,0 +1,53 @@
+{{/*
+  layouts/_partials/hbx/blocks/skills-cloud/block.html
+
+  Purpose:
+  Renders a custom HugoBlox landing-page block for academic portfolio skills.
+  The block reads skill categories from content/experience.md and displays them
+  as concise, scannable cards without subjective proficiency bars.
+
+  Inputs:
+  - .wcBlock.content.title: section title.
+  - .wcBlock.content.skills: list of skill categories.
+  - Each skill category has:
+    - name: category heading.
+    - items: list of skill strings.
+
+  Output:
+  - Semantic HTML for a responsive skill matrix aligned with the academic
+    Experience page style.
+*/}}
+
+{{ $block := . }}
+{{ $content := $block.wcBlock.content }}
+
+<section class="skills-cloud" aria-labelledby="skills-cloud-title">
+  <header class="skills-cloud__header">
+    <h2
+      id="skills-cloud-title"
+      class="mb-10 text-3xl font-bold text-gray-900 dark:text-white text-center"
+    >
+      {{ $content.title | default "Skills" }}
+    </h2>
+  </header>
+
+  <div class="skills-cloud__grid">
+    {{ range $skill := $content.skills }}
+      {{ $skillID := $skill.name | anchorize }}
+
+      <section class="skills-cloud__card" aria-labelledby="{{ $skillID }}">
+        <h3 id="{{ $skillID }}" class="skills-cloud__category">
+          {{ $skill.name }}
+        </h3>
+
+        <ul class="skills-cloud__list" aria-label="{{ $skill.name }}">
+          {{ range $item := $skill.items }}
+            <li class="skills-cloud__item">
+              {{ $item }}
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+  </div>
+</section>

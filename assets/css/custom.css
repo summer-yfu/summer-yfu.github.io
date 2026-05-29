@@ -29,3 +29,111 @@
 .resume-biography {
   padding-top: 48px !important;
 }
+/*
+  assets/css/custom.css
+
+  Purpose:
+  Adds custom styling for site-specific HugoBlox blocks.
+  The skills-cloud styles render the Experience page skills section as a clean,
+  academic skill matrix without subjective proficiency bars.
+
+  Output:
+  Responsive CSS that inherits the site's typography and visually aligns with
+  the existing HugoBlox Experience page.
+*/
+
+:root {
+  --skills-cloud-text: rgb(31, 41, 55);
+  --skills-cloud-muted: rgb(107, 114, 128);
+  --skills-cloud-border: rgb(229, 231, 235);
+  --skills-cloud-surface: rgba(255, 255, 255, 0.72);
+  --skills-cloud-accent: rgb(37, 99, 235);
+}
+
+.dark {
+  --skills-cloud-text: rgb(243, 244, 246);
+  --skills-cloud-muted: rgb(156, 163, 175);
+  --skills-cloud-border: rgba(255, 255, 255, 0.12);
+  --skills-cloud-surface: rgba(255, 255, 255, 0.035);
+  --skills-cloud-accent: rgb(96, 165, 250);
+}
+
+.skills-cloud {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: var(--skills-cloud-text);
+  font-family: inherit;
+}
+
+.skills-cloud__header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.skills-cloud__title {
+  margin: 0;
+}
+
+.skills-cloud__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.skills-cloud__card {
+  padding: 1.25rem;
+  border: 1px solid var(--skills-cloud-border);
+  border-radius: 1rem;
+  background: var(--skills-cloud-surface);
+}
+
+.skills-cloud__category {
+  margin: 0 0 0.9rem;
+  color: var(--skills-cloud-text);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.skills-cloud__list {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-cloud__item {
+  position: relative;
+  padding-left: 1rem;
+  color: var(--skills-cloud-muted);
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.skills-cloud__item::before {
+  position: absolute;
+  top: 0.72em;
+  left: 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 999px;
+  background: var(--skills-cloud-accent);
+  content: "";
+}
+
+@media (max-width: 768px) {
+  .skills-cloud {
+    padding-inline: 1rem;
+  }
+
+  .skills-cloud__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-cloud__card {
+    padding: 1.1rem;
+  }
+}
